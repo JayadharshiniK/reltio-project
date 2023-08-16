@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+
+.navbar {
+    padding: 10px;
+    padding-top: 58px;
+}
+
+
+.hero-section {
+    color: white;
+    background-color: #09084d;  
+    padding: 130px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.customize-btn{
+    background-color: #ffcc00 !important;
+    color: #09084d;
+    font-weight: 500;
+    padding: 9px 30px;
+    border-radius: 30px;
+}
