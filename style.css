@@ -23,6 +23,109 @@
     background-color: #ffcc00 !important;
     color: #09084d;
     font-weight: 500;
-    padding: 9px 30px;
+    padding: 12px 30px;
     border-radius: 30px;
 }
+
+.customize-btn:hover {
+    background-color: #fbd84e !important;
+    color: #09084d;
+    font-weight: 500;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.outline-btn {
+        padding: 10px 35px;
+        border: 2px solid #09084d;
+        border-radius: 30px;
+        font-weight: 500;
+}
+
+.outline-btn:hover {
+    border: 2px solid #ffcc00;
+    background-color: #ffcc00;
+    transition: all 0.2s;
+}
+
+.card-section {
+    margin: 120px 0px;
+}
+
+.card {
+    padding: 35px;
+    border-radius: 7px;
+    box-shadow: 15px 30px 30px rgba(9, 8, 77,.15); 
+    border: none;
+    transition: transform .3s;
+}
+
+.card:hover {
+    padding: 35px;
+    border-radius: 7px;
+    box-shadow: 20px 40px 40px rgba(9, 8, 77,.15); 
+    border: none;
+    transform: scale(1.11);
+}
+
+    
+
+.card-header {
+    background-color: white;
+    border-bottom: 2.5px solid #f5f5f5;
+    padding: 0px 0px 20px 0px;
+    display: inline;
+}
+
+.card-body {
+    padding: 15px 0px;
+}
+
+.card-text {
+    height: 100px;
+    color: #000033;
+    font-size: 20px;
+    padding: none;
+}
+
+.card-btn {
+    padding-top: 15px;
+}
+
+.lap-section {
+    background-image: 
+        linear-gradient(120deg, transparent 0%, transparent 50%, #ffffff 50%),
+        url('img/dot-bf.webp');
+    background-size: contain;   
+    margin: 180px 0px
+}
+
+.lap-content {
+    font-size: 18px;
+}
+
+/* logo-coursel */
+  
+.logo-slider {
+    width: 170px;
+    height: 100px;
+    animation: scroll 60s linear infinite;
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 5em;
+    overflow: hidden;
+  }
+  
+  .slider {
+    margin-top: 30px;
+    padding: 50px 50px;
+    border-bottom: 1.5px solid #e8e9eb;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
