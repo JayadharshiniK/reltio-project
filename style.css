@@ -226,3 +226,98 @@
 
 /* testimonial */
 
+.overlap {
+	position: relative;
+	display: flex;
+    height: 400px;
+    margin-bottom: 330px;
+}
+.card-test {
+	position: absolute;
+	background-color: #000066;
+    color: #ffffff;
+	width: 80%;
+	height: 100%;
+	z-index: 1;
+    padding: 80px 30px 100px 80px;
+    border-radius: 5px;
+}
+
+.card-test-text {
+    font-size: 28px;
+    width: 45%;
+}
+
+.card-test-img {
+	position: absolute;
+	right: 0%;
+    top: 28%;
+	height: 370px;
+    width: 45%;
+	z-index: 2;  
+}
+
+/* patners-section */
+
+.patner-section {
+    background-image: 
+        linear-gradient(120deg, transparent 0%, transparent 50%, #ffffff 50%),
+        url('img/patner-bg.webp');
+    background-size: contain;  
+    background-repeat: no-repeat; 
+    margin: 100px 0px;
+}
+
+.patner-content {
+    font-size: 18px;
+}
+
+/* news-card */
+
+.news-card {
+    box-shadow: 0px 20px 30px 0px rgba(0,0,51,0.2);
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    padding: 35px;
+    margin: 100px 0px 150px 0px;
+}
+
+.news-card-title {
+    font-size: 15px;
+}
+
+.news-card1-img {
+    height: 270px;
+    width: 100%;
+    background-image: url(https://www.reltio.com/wp-content/uploads/2023/08/Modernizing-MDM-thumb-929x1024.png);
+    background-size: cover;
+    background-position: top;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+}
+
+.news-card2-img {
+    height: 270px;
+    width: 100%;
+    background-image: url(https://www.reltio.com/wp-content/uploads/2023/02/iStock-1186356983-1024x683-1-550x367.jpg);
+    background-size: cover;
+    background-position: top;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+}
+
+.news-card3-img {
+    height: 270px;
+    width: 100%;
+    background-image: url(https://www.reltio.com/wp-content/uploads/2022/05/Thought-Leadership-LinkedIn-Post-1200-%C3%97-627-px-550x287.png);
+    background-size: cover;
+    background-position: top;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+}
+
+/* footer */
+.footer{
+   font-size: 14px; 
+   text-decoration: none;
+}
