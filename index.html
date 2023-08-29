@@ -19,8 +19,7 @@
 <body>
 
     <!-- navbar starts here -->
-<div class="header-nav-fixed-top">
-  <div class="container">
+
     <!-- <div class="sub-navbar">
         <a href="#">Support</a>
         <a href="#">Documentation</a>
@@ -28,9 +27,10 @@
         <a href="#">Contact Us</a>
     </div>
  -->
-<nav class="navbar navbar-expand-sm navbar-light">
+<nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light">
 
-      <a class="navbar-brand me-5" href="#">
+  <div class="container">
+  <a class="navbar-brand me-5" href="#">
         <img src="img/reltio-logo.png" alt="Logo" width="110">
       </a>
 
@@ -86,20 +86,37 @@
           <button class="btn customize-btn" type="submit">Request a demo</button>
         </form>
       </div>
-    </div>
+  </div>
+
+      
+   
   </nav>
 <!-- navbar ends here -->
-</div>
+
     
 <!-- hero section -->
-<div class="hero-section">
+<div class="hero-section container-fluid">
+
+    <div class="bg-video">
+      <video class="bg-video-content" autoplay muted loop>
+          <source src="img/BackgroundWaveV4.mp4" type="video/mp4">
+          <source src="img/BackgroundWaveV4.webm" type="video/webm">
+          Your browser is not supported!
+      </video>
+  </div>
+
+
   <div class="container">
       <div class="display-1">Turn data into value</div>
-      <p class="hero mt-2">Deliver core data that your organisation can trust, faster,<br> with our cloud-native, master data management Saas platform
+      <p class="hero mt-2">Deliver core data that your organisation can trust, faster,<br> with our cloud-native, master data management Saas platform.
       </p>
       <button class="btn customize-btn mt-5" type="submit">Request a demo</button>
+    </div>
+  
+
   </div>
-</div>
+
+  
   <!-- hero section ends here -->
 
 <!-- cards section starts here -->
@@ -657,12 +674,12 @@
 
 <!-- footer starts here -->
 <!-- Footer -->
-<footer class="bg-dark text-center text-white">
+<footer class="bg-dark text-center text-white footer">
   <!-- Grid container -->
   <div class="container p-5 footer">
 
    <!-- Section: Links -->
-    <section class="">
+    <section class="links">
       <!--Grid row-->
       <div class="row">
         <!--Grid column-->
@@ -720,10 +737,12 @@
     <!-- Section: Links -->
 
 <!-- logo-line -->
-    <div class="d-flex bd-highlight mb-3">
+    <div class="d-flex bd-highlight mb-3 logo-line">
       <div class="footer-logo bd-highlight"><img src="img/dark-logo.PNG" alt="logo"></div>
-      <div class="bd-highlight text-white footer">&#169; 2023 Reltio. All Rights Reserved | <a href="#" class="text-white footer">Terms, Policies</a> &#38; <a href="#" class="text-white footer">Cookie Preferences</a></div>
-      <div class="ms-auto bd-highlight"><!-- Section: Social media -->
+      <div class="bd-highlight text-white footer">&#169; 2023 Reltio. All Rights Reserved | <a href="#" class="text-white footer text-decoration-underline">Terms, Policies</a> &#38; <a href="#" class="text-white footer text-decoration-underline">Cookie Preferences</a></div>
+      <div class="ms-auto bd-highlight">
+        
+        <!-- Section: Social media -->
         <section class="mb-4">
           <!-- Facebook -->
           <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
